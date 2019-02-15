@@ -1,0 +1,71 @@
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.profileContainer {
+    width: 400px;
+    height: 425px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+}
+
+.imageContainer {
+    /* border: 1px solid blue; */
+    height: 50%;
+    background-color: #1ECEFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hedgehog {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+.contentContainer {
+    border: 1px solid #eee;
+    height: 50%;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.contact {
+    color: silver;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.bio {
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.editButton {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #505355;
+    width: 90%;
+    margin-left: 18px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
